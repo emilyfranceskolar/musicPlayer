@@ -1,6 +1,7 @@
 import { songs } from './songs.js';
 import { generatePlaylist } from './domHandler.js';
 
+const genreContainer = document.querySelector('.genre-container');
 const songContainer = document.querySelector('.song-container');
 
 const initApp = () => {

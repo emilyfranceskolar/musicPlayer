@@ -1,26 +1,26 @@
 export const songs = [
   {
     id: 1,
+    title: 'Imagine',
+    artist: 'John Lennon',
+    genre: 'Pop',
+  },
+  {
+    id: 2,
     title: 'Two Thousand and Seveteen',
     artist: 'Four Tet',
     genre: 'Electronic',
   },
   {
-    id: 2,
-    title: 'C.R.E.A.M. (CashRulesEverythingAroundMe)',
+    id: 3,
+    title: 'C.R.E.A.M.',
     artist: 'Wu-Tang Clan',
     genre: 'Hip-Hop',
   },
   {
-    id: 3,
-    title: 'Yo La Tengo',
-    artist: 'You Can Have It All',
-    genre: 'Pop',
-  },
-  {
     id: 4,
-    title: 'Imagine',
-    artist: 'John Lennon',
+    title: 'You Can Have It All',
+    artist: 'Yo La Tengo',
     genre: 'Pop',
   },
   {
