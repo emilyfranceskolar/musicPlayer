@@ -1,6 +1,6 @@
-# This is a web music player using HTML 5,
+# This is a web music player using HTML 5, CSS and
 
-# CSS and Vanilla Javascript
+# Vanilla Javascript
 
 ## The application will do the following:
 
