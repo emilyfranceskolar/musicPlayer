@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2rem;
+    font-family: "Noto Sans", sans-serif;
+    background-color: #f2f2f2;
+}
+
+#root {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.genre-container {
+    display: flex;
+    gap: 4rem;
+}
+
+.genre-btn {
+    background-color: #03DAC6;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    padding: 12px 24px;
+}
+
+.genre-btn:hover {
+    background-color: #018786;
+    transform: scale(1.1);
+}
+
+.song-container {
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 2rem;
+    border-radius: 1rem;
+    padding: 3rem;
+    background-color: white;
+}
+
+.song-card {
+    padding-top: 0.6rem;
+}
