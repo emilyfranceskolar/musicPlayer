@@ -7,7 +7,7 @@
 body {
     padding: 2rem;
     font-family: "Noto Sans", sans-serif;
-    background-color: #f2f2f2;
+    background-color: #fafafa;
 }
 
 #root {
@@ -18,13 +18,13 @@ body {
     gap: 2rem;
 }
 
-.genre-container {
+.btns-container {
     display: flex;
     gap: 4rem;
 }
 
 .genre-btn {
-    background-color: #03DAC6;
+    background: #9B59B6;
     border: none;
     border-radius: 8px;
     color: #fff;
@@ -32,21 +32,62 @@ body {
 }
 
 .genre-btn:hover {
-    background-color: #018786;
+    background: #8E44AD;
     transform: scale(1.1);
 }
 
 .song-container {
-    max-width: 800px;
+    max-width: 1200px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-    gap: 2rem;
-    border-radius: 1rem;
+    gap: 1.2rem;
     padding: 3rem;
-    background-color: white;
+    border-radius: 8px;
+    background: #ECF0F1;
 }
 
 .song-card {
-    padding-top: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.10);
+    max-width: 400px;
+    border-radius: 8px;
+    color: #333333;
+    background-color: #fafafa;
+    transition: background 0.25s;
+
+    .genre {
+        margin-top: 1rem;
+        padding: 12px 24px;
+        border-radius: 16px;
+        border: 1px solid #333333;
+    }
+
+    .class-image {
+        border: 1.1px solid #000000;
+        width: 250px;
+        height: 200px;
+        margin-right: 24px;
+    }
+}
+
+.song-card:hover {
+    background: #2C3E50;
+    color: #ffffff;
+    transition: background 0.3s;
+
+    .genre {
+        border: 1px solid #ffffff;
+    }
+
+    .class-image {
+        border: 1.1px solid #ffffff;
+        width: 250px;
+        height: 200px;
+        margin-right: 24px;
+    }
 }

@@ -1,11 +1,17 @@
 import { songs } from './songs.js';
-import { generatePlaylist } from './domHandler.js';
+import { generateBtns, generatePlaylist } from './domHandler.js';
 
-const genreContainer = document.querySelector('.genre-container');
+const btnsContainer = document.querySelector('.btns-container');
 const songContainer = document.querySelector('.song-container');
+const genreBtns = btnsContainer.querySelectorAll('.genre-btn');
 
 const initApp = () => {
+  loadBtns();
   loadSongs();
+};
+
+const loadBtns = () => {
+  btnsContainer.innerHTML = generateBtns(songs);
 };
 
 const loadSongs = () => {
