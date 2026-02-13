@@ -8,7 +8,7 @@ export const songs = [
   },
   {
     id: 2,
-    title: 'Two Thousand and Seveteen',
+    title: 'Two Thousand, Seveteen',
     artist: 'Four Tet',
     genre: 'Electronic',
     img: 'content/images/fourtet.png',
@@ -22,17 +22,17 @@ export const songs = [
   },
   {
     id: 4,
-    title: 'You Can Have It All',
-    artist: 'Yo La Tengo',
-    genre: 'Pop',
-    img: 'content/images/yolatengo.png',
-  },
-  {
-    id: 5,
     title: 'Upside Down',
     artist: 'Diana Ross',
     genre: 'Disco',
     img: 'content/images/dross.png',
+  },
+  {
+    id: 5,
+    title: 'You Can Have It All',
+    artist: 'Yo La Tengo',
+    genre: 'Pop',
+    img: 'content/images/yolatengo.png',
   },
   {
     id: 6,
