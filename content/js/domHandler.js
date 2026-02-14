@@ -2,7 +2,6 @@ export const generateBtns = (songs) => {
   let html = '';
   let genreTypes = songs.map((song) => song.genre);
   genreTypes = ['All', ...new Set(genreTypes)];
-  // console.log(genreTypes);
   genreTypes.forEach((song) => {
     html += `
       <button type="button" class="genre-btn" id="${song}">${song}</button>
