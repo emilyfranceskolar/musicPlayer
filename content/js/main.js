@@ -1,5 +1,6 @@
 import { songs } from './songs.js';
 import { generateBtns, generatePlaylist } from './domHandler.js';
+const songContainer = document.querySelector('.song-container');
 
 const initApp = () => {
   loadBtns();
@@ -12,13 +13,11 @@ const loadBtns = () => {
   btnsContainer.innerHTML = generateBtns(songs);
 };
 const loadSongs = () => {
-  const songContainer = document.querySelector('.song-container');
   songContainer.innerHTML = generatePlaylist(songs);
 };
 
 const sortSongs = () => {
   const genreBtns = document.querySelectorAll('.genre-btn');
-  const songContainer = document.querySelector('.song-container');
   const data = songs;
   let tempData = songs;
 
