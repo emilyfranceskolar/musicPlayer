@@ -32,7 +32,6 @@ const sortSongs = () => {
             item.genre.toLowerCase() === button.textContent.toLowerCase(),
         );
         songContainer.innerHTML = generatePlaylist(tempData);
-        generatePlaylist(tempData);
       }
     }),
   );
